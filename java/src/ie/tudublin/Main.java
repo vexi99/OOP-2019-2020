@@ -8,8 +8,8 @@ public class Main
 
         Animal misty = new Dog(); // Polymorphism
 
-        misty.setName("Misty");
-        System.out.println(misty.getName());  
+        misty.setName("Misty"); //"setter" 
+        System.out.println(misty.getName()); //"getter"
         misty.speak();  
 
         Cat topcat = new Cat();

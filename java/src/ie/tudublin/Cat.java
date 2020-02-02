@@ -1,6 +1,6 @@
 package ie.tudublin;
 
-public class Cat extends Animal
+public class Cat extends Animal //inheritance
 {
     private int numLives = 9;
 
@@ -8,6 +8,7 @@ public class Cat extends Animal
     {
         this.numLives = lives;
     }
+    
     public int getNumLives()
     {
         return numLives;
