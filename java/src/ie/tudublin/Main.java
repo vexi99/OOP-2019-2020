@@ -13,14 +13,8 @@ public class Main
         System.out.println("Hello world!");
 
         Animal misty = new Dog(); // Polymorphism
-<<<<<<< HEAD
-
-        misty.setName("Misty"); //"setter" 
-        System.out.println(misty.getName()); //"getter"
-=======
         misty.setName("Misty");
         System.out.println(misty.getName());  
->>>>>>> ac14bafdf3526db59073db63023180ff9ca4d9f0
         misty.speak();  
         Cat topcat = new Cat();
         topcat.speak();
