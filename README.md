@@ -36,11 +36,13 @@ Resources
 
 ### Part 1
 
+Update your forks of the repo to get the code we wrote on Monday
+
 Complete the lab test solution by adding the ability to click on two stars and display the distance between the stars, just like in this video:
 
 [![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://youtu.be/J2kHSSFA4NU)
 
-Here is the (link to the original lab test](https://github.com/skooter500/OOP-LabTest1-2016)
+Here is the [original lab test](https://github.com/skooter500/OOP-LabTest1-2016)
 
 ### Lab 2
 
