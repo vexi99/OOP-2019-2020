@@ -3,6 +3,16 @@ package ie.tudublin;
 public class Main
 {
 
+    public void soundSynthesis()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new SoundSynthesis());
+    }
+    public void starMap()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new StarMap());
+    }
     public void helloArrays()
 	{
 		String[] a = {"MAIN"};
@@ -31,6 +41,18 @@ public class Main
 	{
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new Sound1());
+    }
+
+    public void sound2()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Sound2());
+    }
+
+    public void audioBands()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new AudioBands());
     }
 
     public void airSeaBattle()
@@ -87,6 +109,6 @@ public class Main
     public static void main(String[] arg)
     {
         Main main = new Main();
-		main.sound1();        
+		main.starMap();        
     }
 }
